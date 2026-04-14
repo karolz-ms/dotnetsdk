@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "host aspire-watch": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "dotnetRunMessages": true,
+      "commandLineArgs": "host --sdk  \"C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26203.106\" --entrypoint \"C:\\Users\\karolz\\code\\aspire-watch\\src\\AspireWatchDemo.AppHost\\AspireWatchDemo.AppHost.csproj\" --verbose"
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json"
+}
