@@ -1,16 +1,12 @@
 {
   "profiles": {
-    "dotnet-watch": {
+    "watch webapp1": {
       "commandName": "Project",
-      "commandLineArgs": "-bl",
-      "workingDirectory": "D:\\Temp\\app2",
+      "launchBrowser": false,
+      "dotnetRunMessages": true,
+      "commandLineArgs": "--project C:\\Users\\karolz\\code\\scratch\\webapp1\\webapp1.csproj",
       "environmentVariables": {
-        "DOTNET_WATCH_DEBUG_SDK_DIRECTORY": "$(RepoRoot)artifacts\\bin\\redist\\$(Configuration)\\dotnet\\sdk\\$(Version)",
-        "DCP_IDE_REQUEST_TIMEOUT_SECONDS": "100000",
-        "DCP_IDE_NOTIFICATION_TIMEOUT_SECONDS": "100000",
-        "DCP_IDE_NOTIFICATION_KEEPALIVE_SECONDS": "100000",
-        "ASPIRE_ALLOW_UNSECURED_TRANSPORT": "1",
-        "DOTNET_CLI_CONTEXT_VERBOSE": "true"
+        "DOTNET_WATCH_DEBUG_SDK_DIRECTORY": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26203.106"
       }
     }
   }
